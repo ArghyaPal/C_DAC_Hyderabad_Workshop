@@ -9,7 +9,7 @@ iv) k-Means Clustering.
 v) Boosting / Ensemble methods.
 vi) DBSCAN.
 
-Participants are advised to download / clone this repository and create a virtual environment for installing the dependencies required for running this code.
+The aim of this exercise is to give the participants a fundamental understanding of traditional Machine Learning techniques used in the pre-Deep Learning era for solving various problems. Participants are advised to download / clone this repository and create a virtual environment for installing the dependencies required for running this code.
 
 #Creating Virtual environment
 
@@ -19,8 +19,8 @@ $ pip install virtualenv <br />
 $ cd my_project_folder <br />
 $ virtualenv venv <br />
 
-To begin this virtual environment, the above created one should be activated.
+To begin this virtual environment, the above created one should be activated <br />.
 $ source venv/bin/activate <br />
 
-If you are done working in the virtual environment for the moment, you can deactivate it:
+If you are done working in the virtual environment for the moment, you can deactivate it <br />:
 $ deactivate <br />
