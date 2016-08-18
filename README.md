@@ -1,4 +1,4 @@
-# C_DAC_Hyderabad_Workshop
+# CDAC Hyderabad Workshop
 
 This folder contains ipython notebooks and the corresponding required datasets for the following:
 
@@ -27,11 +27,13 @@ $ deactivate <br />
 
 # Installing required dependencies:
 
-1) Numpy : $sudo apt-get install python-numpy
-2) Scipy : $sudo apt-get install python-scipy
-3) scikit-learn : Follow the instructions here : http://scikit-learn.org/stable/developers/advanced_installation.html
-4) Pandas: $sudo apt-get install python-pandas
-5) Matplotlib: $sudo apt-get install python-matplotlib.
+1) Numpy : $sudo apt-get install python-numpy <br />
+2) Scipy : $sudo apt-get install python-scipy <br />
+3) scikit-learn : Follow the instructions here : http://scikit-learn.org/stable/developers/advanced_installation.html <br />
+4) Pandas: $sudo apt-get install python-pandas <br />
+5) Matplotlib: $sudo apt-get install python-matplotlib. <br />
+
+Note: The above steps work on an Ubuntu distribution. If you have other Linux distribution, equivalent commands can be found online.
 
 # Installing Jupyter
 The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
