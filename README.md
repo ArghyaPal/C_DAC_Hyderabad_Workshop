@@ -2,7 +2,7 @@
 
 This folder contains ipython notebooks and the corresponding required datasets for the following:
 
-i) SVM.
+i) SVM. 
 ii) k Nearest Neighbors.
 iii) Linear Regression.
 iv) k-Means Clustering.
@@ -15,12 +15,12 @@ Participants are advised to download / clone this repository and create a virtua
 
 virtualenv is a tool to create isolated Python environments. virtualenv creates a folder which contains all the necessary executables to use the packages that a Python project would need.
 
-$ pip install virtualenv
-$ cd my_project_folder
-$ virtualenv venv
+$ pip install virtualenv <br />
+$ cd my_project_folder <br />
+$ virtualenv venv <br />
 
 To begin this virtual environment, the above created one should be activated.
-$ source venv/bin/activate
+$ source venv/bin/activate <br />
 
 If you are done working in the virtual environment for the moment, you can deactivate it:
-$ deactivate
+$ deactivate <br />
