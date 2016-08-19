@@ -34,43 +34,33 @@ Then, to **create the directory and setup the virtualenv**:
     $ cd C_DAC_Hyderabad_Workshop
     
 
-$ sudo pip install virtualenv <br />
-$ cd my_project_folder <br />
-$ virtualenv venv <br />
+**Deactivate `virtualenv`**
 
-To begin this virtual environment, the above created one should be activated <br />
-$ source venv/bin/activate <br />
+Once you are done working in the virtual environment, execute `$ deactivate$ to deactivate it.
 
-If you are done working in the virtual environment for the moment, you can deactivate it <br />
-$ deactivate <br />
 
-# Installing required dependencies:
+## Install dependencies
 
-1) Numpy : $sudo apt-get install python-numpy <br />
-2) Scipy : $sudo apt-get install python-scipy <br />
-3) scikit-learn : Follow the instructions here : http://scikit-learn.org/stable/developers/advanced_installation.html <br />
-4) Pandas: $sudo apt-get install python-pandas <br />
-5) Matplotlib: $sudo apt-get install python-matplotlib. <br />
+To install the dependencies, navigate to the root directory of this repository then execute `$ pip install -r requirements.txt`.
+This will install all python modules required for this workshop.
 
-Note: The above steps work on an Ubuntu distribution. If you have other Linux distribution, equivalent commands can be found online.
 
-# Installing Jupyter
-The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
+## Starting Jupyter
 
-$ sudo pip install jupyter
+To get started with the tutorials, execute:
 
-After installing Jupyter, launch it by <br/>
-$ jupyter notebook
+    $ cd Pre-Workshop
+    $ jupyter notebook
 
-This will start the server and open in a web browser where you can run the above ipython notebooks. Advantage of Jupter notebooks is that particular sections of the code can be executed to see what it produces. Please note that it should be run sequentially starting from the beginning cell-wise.
+This will open a browser window with the tutorial files displayed in a list. Simply click on a tutorial file to dive in. Have Fun!
 
-# Contact details for queries.
 
-In case of any difficulties / problems with running the code or any doubts, feel free to reach out to the Indian Institute of Technology Hyderabad (IIT-H) team. <br />
+## Contact details for queries.
 
-1) Dr. Vineeth N Balasubramanian  (vineethnb@iith.ac.in)  <br />
-2) Adepu Ravi Sankar (cs14resch11001@iith.ac.in)   <br />
-3) Arghya Pal (cs15resch11001@iith.ac.in)   <br />
-4) Akilesh B (cs13b1042@iith.ac.in)   <br />
-5) Sahil Manocha (es13b1019@iith.ac.in)  <br />
+In case of any difficulties / problems with running the code or any doubts, feel free to reach out to the Indian Institute of Technology Hyderabad (IIT-H) team.
 
+  1. Dr. Vineeth N Balasubramanian  (vineethnb@iith.ac.in)
+  2. Adepu Ravi Sankar (cs14resch11001@iith.ac.in)
+  3. Arghya Pal (cs15resch11001@iith.ac.in)
+  4. Akilesh B (cs13b1042@iith.ac.in)
+  5. Sahil Manocha (es13b1019@iith.ac.in)
